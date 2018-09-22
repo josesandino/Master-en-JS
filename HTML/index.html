@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
     <title>Mi primera web</title>
 </head>
     <body>
@@ -28,6 +29,32 @@
                     <em>cupiditate inventore voluptatibus </em> vitae necessitatibus. <span id="resaltado" class="rojo amarillo">Dolore eos nesciunt,</span> dolorum perspiciatis harum labore corrupti <i>saepe vel.</i>
                 </blockquote>
             </p>
+        
+        <h3>Formulario</h3>
+        <form>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre">
+            </p>
+            <p>    
+                <label for="descripcion">Descripción</label>
+                <textarea name="descripcion"></textarea>
+            </p> 
+            
+            <input type="radio" name="genero" value="hombre">Hombre <br>
+            <input type="radio" name="genero" value="mujer">Mujer <br>
+            <input type="radio" name="genero" value="nada">Nada <br>
+
+            <select name="generodos">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="nada">Nada</option>
+            </select>
+
+            <input type="submit" value="Enviar Formulario">
+
+        </form>    
+
         <h3>Listado de frutas</h3>
             <ul>
                 <li>Manzana
@@ -49,7 +76,7 @@
                     <th>Pais</th>
                 </tr>
                 <tr>
-                    <td>Jose</td>
+                    <td>José</td>
                     <td>Sandino</td>
                     <td>Nicaragua</td>
                 </tr>
